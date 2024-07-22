@@ -1,9 +1,11 @@
 import React from 'react';
 import Navbar from './Navbar';
-import { Link, Element } from 'react-scroll';
+import { Element } from 'react-scroll';
 import './App.css';
-import aboutImage from './aboutImage.jpeg'; // Ensure you have this image in the src directory
-
+import aboutImage from './aboutImage.jpeg';
+import projectImage1 from './projectImage1.jpeg'; 
+import projectImage2 from './projectImage2.jpeg';
+import projectImage3 from './projectImage3.jpeg';
 
 function App() {
   return (
@@ -59,9 +61,30 @@ function App() {
         </div>
       </Element>
 
-      <Element name="our-work" className="section">
+      <Element name="our-work" className="section our-work-section">
         <h2>Our Work</h2>
-        <p>Details about projects and achievements.</p>
+        <p>At BIM Draft, we're transforming construction with advanced BIM technologies. 
+        Our passionate team of architects, engineers, and developers is dedicated to optimizing every phase of your project—from design to maintenance. 
+        We empower clients with efficiency, cost savings, and sustainability through tailored consulting, software solutions, and collaborative training. 
+        Join us in shaping the future of construction—build smarter, greener, and more resilient structures with BIM Draft.</p>
+        <div className="projects-grid">
+          <div className="project-card">
+            <img src={projectImage1} alt="Project 1" />
+            <h3>Project 1</h3>
+            <p>Description of Project 1.</p>
+          </div>
+          <div className="project-card">
+            <img src={projectImage2} alt="Project 2" />
+            <h3>Project 2</h3>
+            <p>Description of Project 2.</p>
+          </div>
+          <div className="project-card">
+            <img src={projectImage3} alt="Project 3" />
+            <h3>Project 3</h3>
+            <p>Description of Project 3.</p>
+          </div>
+          {/* Add more project cards as needed */}
+        </div>
       </Element>
 
       <Element name="contact" className="section">

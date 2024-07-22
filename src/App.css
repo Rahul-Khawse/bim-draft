@@ -113,3 +113,57 @@ h1, h2 {
   line-height: 2;
   color: rgb(196, 196, 196);
 }
+
+/* Our Work section styles */
+.our-work-section {
+  background-color: #000000;
+  color: white;
+  width: 100%;
+}
+
+.our-work-section h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.our-work-section p {
+  margin: 40px 100px;
+  line-height: 2.5;
+  font-size: 20px;
+  
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.project-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  overflow: hidden; 
+}
+
+.project-card img {
+  width: 348px;
+  height: 300px;
+  object-fit: cover; 
+  border-radius: 8px 8px 0 0; 
+}
+
+.project-card h3 {
+  margin-top: 20px;
+  color: #000000;
+}
+
+.project-card p {
+  margin-bottom: 0;
+  color: #000000;
+}
