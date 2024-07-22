@@ -6,6 +6,8 @@ import aboutImage from './aboutImage.jpeg';
 import projectImage1 from './projectImage1.jpeg'; 
 import projectImage2 from './projectImage2.jpeg';
 import projectImage3 from './projectImage3.jpeg';
+import ContactUs from './ContactUs';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -87,18 +89,8 @@ function App() {
         </div>
       </Element>
 
-      <Element name="contact" className="section">
-        <h2>Contact Us</h2>
-        <form>
-          <label htmlFor="name">Name:</label>
-          <input type="text" id="name" name="name" />
-          <label htmlFor="email">Email:</label>
-          <input type="email" id="email" name="email" />
-          <label htmlFor="message">Message:</label>
-          <textarea id="message" name="message"></textarea>
-          <button type="submit">Submit</button>
-        </form>
-      </Element>
+      <ContactUs />
+      <Footer />
     </div>
   );
 }

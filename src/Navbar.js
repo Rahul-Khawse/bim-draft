@@ -12,6 +12,7 @@ function Navbar() {
       <ul className="navbar-links">
         <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
         <li><Link to="about" smooth={true} duration={500}>About</Link></li>
+        <li><Link to="features" smooth={true} duration={500}>Explore</Link></li>
         <li><Link to="our-work" smooth={true} duration={500}>Our Work</Link></li>
         <li><Link to="contact" smooth={true} duration={500}>Contact Us</Link></li>
       </ul>
