@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import './Navbar.css';
-import logo from './logo.png'; // Adjust the path according to your project structure
+import logo from './logo.jpeg'; // Adjust the path according to your project structure
 
 function Navbar() {
   return (

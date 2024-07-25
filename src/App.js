@@ -23,9 +23,15 @@ function App() {
         <div className="about-content">
           <div className="about-text">
             <h2>About Us</h2>
-            <p>We are a startup focused on creating innovative solutions to modern problems. 
-            Our team is dedicated to providing the best services and products to our clients. 
-            Our mission is to drive progress and innovation in our industry.</p>
+            <p>BIMDraft is a forward-thinking startup specializing in Building Information Modeling (BIM) 
+            services and CAD drafting. Our team is dedicated to providing innovative solutions that 
+            streamline project workflows and enhance the precision and efficiency of architectural and 
+            engineering designs.
+            <br />
+            At BIMDraft, we leverage cutting-edge technology and industry best practices to deliver 
+            exceptional BIM and CAD drafting services. Our mission is to drive progress and innovation 
+            in the construction and design industry, ensuring our clients receive the highest quality 
+            support for their projects.</p>
           </div>
           <div className="about-image">
             <img src={aboutImage} alt="About Us" />
@@ -37,28 +43,28 @@ function App() {
         <h2>Explore Features</h2>
         <div className="features-grid">
           <div className="feature">
-            <h3>The BIM Engineers</h3>
-            <p>BIM (Building Information Modeling) Engineers focus on creating digital representations of physical and functional characteristics of places.</p>
+            <h3>Architecture</h3>
+            <p>We provide comprehensive architectural design services that blend creativity and technical expertise. Our team of experienced architects works closely with clients to develop innovative solutions that meet their specific needs.</p>          
           </div>
           <div className="feature">
-            <h3>BIM / VDC</h3>
-            <p>Building Information Modeling (BIM) / Virtual Design and Construction (VDC) optimize project design, construction, and lifecycle management.</p>
-          </div>
-          <div className="feature">
-            <h3>Staffing</h3>
-            <p>Staffing services provide skilled professionals for various roles, ensuring project efficiency and success.</p>
-          </div>
-          <div className="feature">
-            <h3>STAFFING / SECONDMENT</h3>
-            <p>Staffing and secondment involve providing temporary workforce solutions tailored to project needs.</p>
+            <h3>Structure</h3>
+            <p>Our structural engineering services ensure stability and durability for your buildings. We analyze, design, plan, and research structural components and systems to achieve design goals and ensure the safety and comfort of users or occupants.</p>          
           </div>
           <div className="feature">
             <h3>CAD Drafting</h3>
-            <p>CAD (Computer-Aided Design) Drafting services transform ideas into detailed technical drawings.</p>
+            <p>Professional CAD drafting services for all your design needs. Our team uses the latest CAD software to produce accurate and detailed drawings for architectural, structural, and MEP projects.</p>
           </div>
           <div className="feature">
-            <h3>Quantity Surveying</h3>
-            <p>Quantity Surveying manages project costs and ensures efficient resource allocation.</p>
+            <h3>Coordination</h3>
+            <p>Efficient coordination of all project elements to ensure seamless integration. Our coordination services include managing the interaction between different trades and disciplines, resolving conflicts, and ensuring that all components of the project work together harmoniously.</p>
+          </div>
+          <div className="feature">
+            <h3>Take-off</h3>
+            <p>Accurate material take-off services for project planning and cost estimation. Our detailed take-off services help you quantify the materials needed for your project, providing a solid foundation for budgeting and procurement.</p>
+          </div>
+          <div className="feature">
+            <h3>MEP</h3>
+            <p>Comprehensive MEP (Mechanical, Electrical, and Plumbing) services to ensure the functionality and safety of your building systems. Our MEP engineers design and implement efficient and effective systems that meet all regulatory requirements and client specifications.</p>
           </div>
         </div>
       </Element>
@@ -72,18 +78,22 @@ function App() {
         <div className="projects-grid">
           <div className="project-card">
             <img src={projectImage1} alt="Project 1" />
-            <h3>Project 1</h3>
-            <p>Description of Project 1.</p>
+            <h3>BIM SERVICES</h3>
+            <p>At BIM Draft, we leverage advanced BIM capabilities to innovate design and automate processes.
+            Our tech-savvy BIM teams partner with you to overcome building design and construction challenges, 
+            boosting AEC industry productivity.</p>
           </div>
-          <div className="project-card">
+          {/* <div className="project-card">
             <img src={projectImage2} alt="Project 2" />
             <h3>Project 2</h3>
             <p>Description of Project 2.</p>
-          </div>
+          </div> */}
           <div className="project-card">
             <img src={projectImage3} alt="Project 3" />
-            <h3>Project 3</h3>
-            <p>Description of Project 3.</p>
+            <h3>CAD SERVICES</h3>
+            <p>We provide end-to-end services, from 2D & 3D CAD drafting to VDC consulting.
+            Our experts partner with architects, engineers, contractors, and manufacturers to apply 
+            advanced methodologies and improve project results.</p>
           </div>
           {/* Add more project cards as needed */}
         </div>
