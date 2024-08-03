@@ -4,7 +4,6 @@ import { Element } from 'react-scroll';
 import './App.css';
 import aboutImage from './aboutImage.jpeg';
 import projectImage1 from './projectImage1.jpeg'; 
-import projectImage2 from './projectImage2.jpeg';
 import projectImage3 from './projectImage3.jpeg';
 import ContactUs from './ContactUs';
 import Footer from './Footer';
@@ -83,11 +82,6 @@ function App() {
             Our tech-savvy BIM teams partner with you to overcome building design and construction challenges, 
             boosting AEC industry productivity.</p>
           </div>
-          {/* <div className="project-card">
-            <img src={projectImage2} alt="Project 2" />
-            <h3>Project 2</h3>
-            <p>Description of Project 2.</p>
-          </div> */}
           <div className="project-card">
             <img src={projectImage3} alt="Project 3" />
             <h3>CAD SERVICES</h3>
@@ -99,7 +93,13 @@ function App() {
         </div>
       </Element>
 
-      <ContactUs />
+      <Element name="contact" className="section contact-section">
+        <h2>Contact Us</h2>
+        <button>Get In Touch</button>
+      </Element>
+
+
+      {/* <ContactUs /> */}
       <Footer />
     </div>
   );
