@@ -93,13 +93,7 @@ function App() {
         </div>
       </Element>
 
-      <Element name="contact" className="section contact-section">
-        <h2>Contact Us</h2>
-        <button>Get In Touch</button>
-      </Element>
-
-
-      {/* <ContactUs /> */}
+      <ContactUs />
       <Footer />
     </div>
   );
