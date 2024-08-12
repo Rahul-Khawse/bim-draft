@@ -28,6 +28,13 @@ h1, h2 {
   margin: 0 0 20px;
 }
 
+/* Media Queries */
+@media (max-width: 768px) {
+  .home-section {
+    padding: 30px 15px;
+  }
+}
+
 
 /* About Us section styles */
 .about-section {
@@ -79,6 +86,13 @@ h1, h2 {
   border-radius: 10px;
 }
 
+/* Media Queries */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 30px 15px;
+  }
+}
+
 /* Features section styles */
 .features-section {
   background-color: #000000;
@@ -115,6 +129,17 @@ h1, h2 {
   margin-bottom: 0;
   line-height: 2;
   color: rgb(196, 196, 196);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .features-section {
+    padding: 30px 15px;
+  }
+
+  .feature {
+    margin-bottom: 15px;
+  }
 }
 
 /* Our Work section styles */
@@ -283,4 +308,21 @@ h1, h2 {
 .contact-info p {
   margin: 0;
   letter-spacing: 1.3px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .contact-info {
+    margin-left: 0;
+  }
 }

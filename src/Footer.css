@@ -40,3 +40,10 @@
     color: #ddd;
   }
   
+/* Media Queries */
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
