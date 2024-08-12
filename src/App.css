@@ -21,17 +21,33 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start; /* Align content to the left */
+  padding-left: 20px; /* Adjust this value as needed */
 }
 
-h1, h2 {
+.intro-container {
+  max-width: 40%; /* Restrict width to 50% of the page */
+  background-color: rgba(0, 0, 0, 0.7); /* Black background with 70% opacity */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1, p {
   margin: 0 0 20px;
+  line-height: 1.5;
 }
 
 /* Media Queries */
 @media (max-width: 768px) {
   .home-section {
     padding: 30px 15px;
+    align-items: flex-start;
+    padding-left: 15px;
+  }
+
+  .intro-container {
+    max-width: 100%; /* Allow full width on smaller screens */
+    padding: 15px;
   }
 }
 

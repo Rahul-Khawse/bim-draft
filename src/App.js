@@ -14,8 +14,11 @@ function App() {
       <Navbar />
 
       <Element name="home" className="section home-section">
-        <h1>Welcome to Our Startup</h1>
-        <p>Introductory content goes here.</p>
+        <div className="intro-container">
+          <h1>Welcome to BIM Draft</h1>
+          <p>At BIM Draft, we specialize in delivering comprehensive Building Information Modeling 
+            (BIM) services that streamline your architectural, structural, and MEP projects. </p>
+        </div>
       </Element>
 
       <Element name="about" className="section about-section">
