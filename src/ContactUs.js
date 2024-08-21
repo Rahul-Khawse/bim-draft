@@ -66,15 +66,15 @@ const ContactUs = () => {
           <h3>Contact Information</h3>
           <div className="info-item">
             <i className="fa fa-envelope"></i>
-            <a href="bimdraft@gmail.com">bimdraft@gmail.com</a>
+            <a href="bimdraft@gmail.com">India@bimdraft.in </a>
           </div>
           <div className="info-item">
             <i className="fa fa-phone"></i>
-            <a href="tel:+91-12345-67890">(+91) 12345-67890</a>
+            <a href="tel:+91-12345-67890">(+91) 84484 67307</a>
           </div>
           <div className="info-item">
             <i className="fa fa-map-marker"></i>
-            <p>Gurgaon, Haryana, India</p>
+            <p>Ocus Quantum, Internal Road, Block D,Sector 51,Gurugrm Haryana 122003</p>
           </div>
         </div>
       </div>
